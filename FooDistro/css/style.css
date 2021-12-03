@@ -1,0 +1,47 @@
+<style>* {
+    box-sizing: border-box;
+}
+
+h {
+    display: block;
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+    line-height: 28px;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0, 1);
+    background: -webkit-gradient(linear, 0 100%, 0 0, from(rgba(0, 0, 0, .4)), to(rgba(255, 255, 255, .2)));
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, .4), rgba(255, 255, 255, .2));
+    background: -moz-linear-gradient(bottom, rgba(0, 0, 0, .4), rgba(255, 255, 255, .2));
+    background: -o-linear-gradient(bottom, rgba(0, 0, 0, .4), rgba(0, 0, 0, .2));
+    background: linear-gradient(bottom, rgba(0, 0, 0, .4), rgba(0, 0, 0, .2));
+}
+
+div {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .4);
+    overflow: hidden;
+}
+
+input[type=text],
+textarea,
+select {
+    font: 17px Calibri;
+    width: 99.9%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=button] {
+    font: 17px Calibri;
+    width: auto;
+    float: right;
+    cursor: pointer;
+    padding: 7px;
+}
+
+</style>
